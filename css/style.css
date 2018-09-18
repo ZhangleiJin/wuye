@@ -1,0 +1,429 @@
+/*重置样式*/
+    body,div,p,ul,ol,dl,dt,dd,li,form,input,table,th,td,img,h1,h2,h3,h4,h5,h6 { margin:0 ;padding:0; }
+    body { background: #f0f2f4; color:#000; font-size:12px; font-style:normal; font-family:"Microsoft Yahei";}
+    em, b, i { font-style:normal;}
+    img { border:none;}
+    a { text-decoration:none; color:#000;}
+    a:hover { text-decoration:none;}
+    li { list-style:none;}
+    table { border-spacing:0; border-collapse:collapse;}
+    /*the end*/
+    /*公共*/
+    .hide {display: none;}
+    .flt {float:left;}
+    .frt {float:right;}
+    .clear { clear: both;}
+    /*清除浮动*/
+    .clearfix { *zoom: 1;} 
+    .clearfix:before, .clearfix:after { display: table; line-height: 0; content: "";}
+    .clearfix:after { clear: both;}
+
+    
+
+/*头部内容*/
+    
+    .header-top{
+        height: 3px;
+        background-color: #cc0000;
+    }
+
+    .header-bottomtrap{
+        border-bottom: 1px solid #eaeaea;
+        background-color: #fff;
+    }
+    
+    .header-bottom{
+        width: 1200px;
+        margin:0 auto;
+    }
+    
+    .logo{
+        float: left;
+        margin: 20px 238px 0 0;
+    }
+
+    .nav{
+    float: left;
+    }
+    
+    .nav li{
+        float:left;
+        padding: 0 20px;
+        font-size: 16px;
+        line-height: 79px;
+        margin-left: 20px;
+    }
+    
+    .nav li:hover{
+        background-color: #cc0000;
+        color: #fff;
+    }
+
+
+/*banner焦点图内容*/
+    
+    .banner{
+        position: relative;
+    }
+    
+    .banner img{
+        float: left;
+        width: 50%;    
+    }
+    
+    .banner-text{
+        position: absolute;
+        font-size: 20px;
+        color:#f6e0df;
+        text-shadow: 1px 1px 0 #000;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+        margin: auto;
+        text-align: center;
+        line-height: 410px;
+    }
+
+    .banner-circle{
+        position: absolute;
+        bottom: 19px;
+        left: 675px;
+    }
+
+    .banner-circle li{
+        width: 12px;
+        height: 12px;
+        margin: 0 12px;
+        background-color: #bfb8b6;
+        border-radius: 50%;
+        float: left;
+    }
+
+    .banner-circle li:hover{
+        background-color: #cc0000;
+    }
+
+
+
+/*content中间*/
+    
+    .content{
+        overflow: hidden;
+        background-color: #fff;
+    }
+    
+    .x{
+        color:  #cc0000;
+        font-size: 10px;
+        font-weight:bold;
+        line-height: 10px;
+        text-align: center;
+        margin: 30px auto 18px;
+    }
+    
+    .content h1{
+        text-align: center;
+        line-height: 24px;
+        margin-bottom: 22px;
+    }
+    
+    .fenlei{
+        width: 1000px;
+        margin:0 auto;
+    }
+    
+    .fenlei li{
+        width: 50%;
+        height: 122px;
+        float: left;
+    }
+    
+    .yuan{
+        width: 96px;
+        height: 96px;
+        border: 2px solid #000;
+        border-radius: 50%;
+        margin: 11px 20px 11px 0;
+        float: left;
+    }
+
+    .yuan-icon{
+        display: block;
+        width: 63px;
+        height: 63px;
+    }
+    
+    .shangye-icon{  
+        background: url(../css/images/jieshao.png);
+        margin: 15px auto 0;
+    }
+    
+    .gongzhong-icon{
+        background: url(../css/images/jieshao.png) -63px;
+        margin: 12px auto 0;
+    }
+    
+    .bangonglou-icon{
+        background: url(../css/images/jieshao.png) -126px;
+        margin: 13px auto 0;
+    }
+    
+    .zhuzhai-icon{
+        background: url(../css/images/jieshao.png) -189px;
+        margin: 15px auto 0;
+    }
+  
+    .fenlei-text{
+        float: left;
+        margin-top: 35px;
+    }
+    
+    .fenlei-text p{
+        width: 320px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .fenlei-text span{
+        display: block;
+        font-size: 16px;
+        line-height: 16px;
+
+    }
+
+
+/*main主要内容*/
+
+/* main-top主要内容上层*/
+
+    
+    .main-top{
+        margin-bottom: 65px;
+    }
+    
+    .anli-biaoti{
+        font-size: 30px;
+        text-align: center;
+        line-height: 76px;
+    }
+    
+    .xiangmu{
+        padding-left: 620px;
+    }
+    
+    .xiangmu a{
+        display:block;
+        float: left;
+        font-size: 14px;
+        line-height: 14px;
+        border-left: 1px solid #818282;
+        transform:skewX(-20deg);
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+
+    .xuanzhuan{
+        transform:skewX(20deg);
+    }
+    
+    .xiangmu a:first-child{
+        border-left: 0;
+    }
+    
+    .lunbopic{
+        width: 1000px;
+        height:225px;
+        padding-top: 35px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+.lunbopic ul{
+    margin-left: -17px;
+}
+    
+    .lunbopic li{
+        float: left;
+        margin-left: 17px;  
+    }
+    
+ 
+    .lunbopic p{
+        font-size: 14px;
+        line-height: 46px;
+        text-align: center;
+    }
+    
+    .anniutrap{
+        width: 1000px;
+        margin: 13px auto 0;
+    }
+
+    .anniu{
+        width: 21px;
+        height: 21px;
+        background-color: #252527;
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+.prev{
+     margin-left: 479px;
+}    
+
+.next{
+     margin-left: 542px;
+}
+
+/*main-bottom主要内容下层*/
+
+    
+    .main-bottom{
+        width: 1000px;
+        margin: 0 auto 52px;
+    }
+    
+    .xinwen-text{
+        font-size: 24px;
+        line-height: 24px;
+        margin-right: 9px;
+    }
+    
+    .all-text{
+        font-size: 14px;       
+        color: #949495;
+        line-height: 14px;
+    }
+    
+    .main-bottom a{
+        display: block;
+        margin-top: 22px;
+    }
+    
+    .zongjie{
+        font-size: 14px;
+        line-height:24px;
+    }
+    
+    .xushu{
+        width: 530px;
+        font-size: 12px;
+        color:#949495;
+        line-height: 22px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    
+    .main-bottom-fenge{
+        width: 1px;
+        height: 175px;
+        background-color: #ababab;
+        margin:48px 42px 0 59px;
+    }
+    
+    .main-bottom-right{
+        margin-top: 43px;
+    }
+    
+    .title{
+        font-size: 12px;
+        line-height: 26px;
+    }
+    
+    .big-title{
+        font-size: 24px;
+        line-height: 24px;
+        margin: 17px 0 22px 0;
+    }
+    
+    .liuyan{
+        width: 123px;
+        height: 43px;
+        background-color: #69ba07;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        line-height: 43px;
+    }
+    
+     
+    .zaixian-icon{
+        display: block;
+        float: left;
+        width: 22px;
+        height: 19px;
+        background: url(../css/images/liuyan.png);
+        margin: 11px 0 0 10px;
+    }
+
+
+
+
+/*footer-top尾部上层内容*/
+    
+    .footer-top{
+        background-color: #222222;
+        color:#fff;
+        
+    }
+    
+    .footer-top-contain{
+        width: 1000px;
+        margin: 0 auto;
+        padding: 37px 0 50px 0;
+    }
+    
+    .footer-xiangmu p{
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 17px;
+    }
+    
+    .footer-xiangmu li{
+        line-height: 24px;
+    }
+    
+    .foot-logo{
+        margin: 43px 105px 45px 180px;
+    }
+
+    .footer-icon{
+        display: block;
+        float: left;
+        width: 16px;
+        height: 16px;
+        margin:5px 5px 0 0;
+    }
+    
+    .dianhua-icon{
+        background: url(../css/images/lianxi-icon.png) 0 no-repeat;  
+    }
+    
+    .chuanzhen-icon{
+        background: url(../css/images/lianxi-icon.png) -16px no-repeat;
+    }
+    
+    .dizhi-icon{
+        background: url(../css/images/lianxi-icon.png) -32px no-repeat;
+    }
+    
+    .liuyan-icon{
+        background: url(../css/images/lianxi-icon.png) -48px no-repeat;
+    }
+
+
+/*footer-bottom尾部下层内容*/
+    .footer-bottom{
+        height: 44px;
+        background-color: #101010;
+        color: #7d7d7d;
+        line-height: 44px;
+        text-align: center;
+    }
+
+
